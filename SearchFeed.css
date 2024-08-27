@@ -1,0 +1,19 @@
+.search-feed-container {
+  padding: 16px;
+  min-height: 95vh;
+}
+
+.search-title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.videos-container {
+  display: flex;
+}
+
+.videos-list {
+  margin-right: 100px;
+}

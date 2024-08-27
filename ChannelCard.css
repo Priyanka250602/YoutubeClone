@@ -1,0 +1,49 @@
+.channel-card {
+  box-shadow: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 356px; 
+  /* max-width: 356px;  */
+  height: 326px;
+  margin: auto;
+  background-color: #1e1e1e;
+}
+@media (min-width:768px) {
+  .channel-card{
+    width: 320px;
+  }
+  
+}
+.channel-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  color: white;
+}
+.channel-card-image {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  margin-bottom: 20px; 
+  border: 1px solid #e3e3e3;
+}
+.channel-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0; 
+}
+.check-icon {
+  font-size: 14px;
+  color: gray;
+  margin-left: 5px; 
+}
+.channel-card-subscribers{
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  margin: 0;
+}

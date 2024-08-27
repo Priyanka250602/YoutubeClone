@@ -1,0 +1,20 @@
+.app-container{
+  background-color: white;
+  min-height: 100vh;
+}
+.header-d-flex {
+  display: flex;
+  background-color: black;
+}
+.header-links {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 8px; 
+  padding: 10px 5px;
+  border-radius: 5px solid gray;
+  background-color: black;
+}
+.header-links img {
+  width: 5%;
+}
